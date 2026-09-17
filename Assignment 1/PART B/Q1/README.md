@@ -1,3 +1,26 @@
+#PART B Question 1
+
+### Algorithm
+
+1. **START**
+2. Read `season` (1 for Peak, 2 for Off-Peak), `room_type` (1 for Standard, 2 for Deluxe, 3 for Suite), and `nights`.
+3. **IF** `season == 1` (Peak):
+   - **IF** `room_type == 1` THEN `rate = 5000`
+   - **ELSE IF** `room_type == 2` THEN `rate = 8000`
+   - **ELSE IF** `room_type == 3` THEN `rate = 12000`
+4. **ELSE IF** `season == 2` (Off-Peak):
+   - **IF** `room_type == 1` THEN `rate = 3000`
+   - **ELSE IF** `room_type == 2` THEN `rate = 5000`
+   - **ELSE IF** `room_type == 3` THEN `rate = 8000`
+5. Calculate `base_total = rate * nights`.
+6. **IF** `nights > 7` THEN:
+   - `discount = base_total * 0.15`
+   **ELSE**:
+   - `discount = 0.0`
+7. Calculate `final_price = base_total - discount`.
+8. Print `final_price`.
+9. **END**
+
 ### Problem Analysis Chart (PAC)
 
 | Given Data | Required Results |
