@@ -2,6 +2,6 @@
 This repository contains all the theory assignments for the Programming Fundamentals (PF) course at university.
 
 # AUTHOR
-Rameez Ahmed
-Roll No: 26K-2527
-Section: BDS-1A
+* Rameez Ahmed<br>
+* Roll No: 26K-2527<br>
+* Section: BDS-1A
