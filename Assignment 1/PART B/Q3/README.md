@@ -13,3 +13,12 @@
 | Input | Processing | Module Reference | Output |
 | :--- | :--- | :--- | :--- |
 | • Subject 1 mark (`m1`)<br>• Subject 2 mark (`m2`)<br>• Subject 3 mark (`m3`)<br>• Subject 4 mark (`m4`)<br>• Subject 5 mark (`m5`) | 1. Enter `m1, m2, m3, m4, m5`<br>2. Compute `sum = m1 + m2 + m3 + m4 + m5`<br>3. Compute `average = sum / 5.0`<br>4. Check if any `m < 33` for subject deficiency override<br>5. If no deficiency, classify `result` based on `average`<br>6. Display `average` and `result`<br>7. End | Read<br>Calc<br>Calc<br>Selection<br>Selection<br>Print<br>ClassResultControl | • `average`<br>• `result` ("Distinction", "Pass", "Fail", or "Fail — Subject Deficiency") |
+
+
+## Question 3 Output
+- Test Case #1
+<img width="461" height="266" alt="image" src="https://github.com/user-attachments/assets/a2d0e0f5-5e90-4e12-83c0-4983aa54817d" />
+
+- Test Case #2
+<img width="441" height="265" alt="image" src="https://github.com/user-attachments/assets/45e728e2-6ed8-4343-8dfa-3e6c7d58f9c3" />
+
