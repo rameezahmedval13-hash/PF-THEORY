@@ -15,3 +15,13 @@
 | :--- | :--- | :--- | :--- |
 | • Quantity (`q`)<br>• Price per item (`p`)<br>• Discount % (`d`)<br>• Tax % (`t`) | 1. Read `q`, `p`, `d`, `t`<br>2. Check if $q \le 0$ OR $p < 0$ OR $d < 0$ OR $t < 0$<br>3. If invalid, display "Error: Invalid Input" and stop<br>4. Calculate `s = q * p`<br>5. Calculate `a = s - (s * d) / 100`<br>6. Calculate `f = a + (a * t) / 100`<br>7. Print `s`, `a`, and `f`<br>8. End | Read<br>Selection<br>Print<br>Calc<br>Calc<br>Calc<br>Print<br>BillCalculatorControl | • Error message (if invalid input)<br>• Subtotal (`s`)<br>• Discounted Amount (`a`)<br>• Final Bill (`f`) |
 
+## Question 4 Output
+- Test Case #1
+<img width="478" height="249" alt="image" src="https://github.com/user-attachments/assets/56d733da-4982-4d85-b5bf-a909500cdb47" />
+
+- Test Case #2
+<img width="525" height="214" alt="image" src="https://github.com/user-attachments/assets/d51e12e2-e295-4242-85bf-3d4923aca295" />
+
+
+
+
