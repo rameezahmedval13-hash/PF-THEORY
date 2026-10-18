@@ -15,3 +15,10 @@
 | Input | Processing | Module Reference | Output |
 | :--- | :--- | :--- | :--- |
 | • Current floor (`current_floor`)<br>• Requested floor (`requested_floor`) | 1. Initialize `current_floor = 0`<br>2. Enter `requested_floor`<br>3. Compare `requested_floor` with `current_floor`<br>4. Print status message ("Moving Up", "Moving Down", or "Doors Opening")<br>5. Update `current_floor = requested_floor`<br>6. Display updated `current_floor`<br>7. End | Initialize<br>Read<br>Selection<br>Print<br>Assign<br>Print<br>ElevatorControl | • Direction status message<br>• Updated `current_floor` |
+
+## Question 2 Output
+
+<img width="517" height="487" alt="image" src="https://github.com/user-attachments/assets/871dcb20-997f-4e3b-b774-5413677cc75d" />
+
+
+
