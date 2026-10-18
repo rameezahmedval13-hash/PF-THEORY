@@ -15,3 +15,18 @@
 | :--- | :--- | :--- | :--- |
 | • `vehicle_type` ('C', 'B', 'V')<br>• `user_cat` ('F', 'S', 'G')<br>• `has_permit` ('Y', 'N')<br>• `is_emergency` ('Y', 'N')<br>• `capA`, `capB`, `capC` | 1. Read `vehicle_type`, `user_cat`, `has_permit`<br>2. Validate input values; reject if invalid<br>3. If `has_permit == 'N'`, read `is_emergency`<br>4. If `has_permit == 'N'` AND `is_emergency == 'N'`, reject vehicle<br>5. Determine required zone and space requirement (1 or 2 spaces)<br>6. Check zone capacity availability<br>7. Deduct occupied space and assign zone OR display rejection reason<br>8. Display result and remaining capacity<br>9. End | Read<br>Selection<br>Read<br>Selection<br>Selection<br>Selection<br>Assign/Print<br>Print<br>CampusAccessControl | • Status message ("Approved" / "Rejected")<br>• Assigned Zone<br>• Rejection Reason (if applicable)<br>• Remaining Zone Capacity |
 
+# Question 5 Output
+
+- Test Case #1
+<img width="483" height="221" alt="image" src="https://github.com/user-attachments/assets/ef2a0959-8424-4e2d-a1df-3dcf0f7ae9a8" />
+
+- Test Case #2
+<img width="481" height="232" alt="image" src="https://github.com/user-attachments/assets/fa2280a1-27c1-45fe-8cf7-ecff9656fbb5" />
+
+- Test Case #3
+<img width="512" height="235" alt="image" src="https://github.com/user-attachments/assets/4942394f-7c25-4412-a372-05e0d6358e1d" />
+
+
+
+
+
