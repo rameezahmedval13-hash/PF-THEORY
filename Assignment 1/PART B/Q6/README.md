@@ -15,3 +15,8 @@
 | :--- | :--- | :--- | :--- |
 | • `vehicle_type`<br>• `soc`<br>• `req_level`<br>• `duration`<br>• `time`<br>• `is_member`<br>• `is_disabled`<br>• `station_avail` | 1. Enter all input variables<br>2. Evaluate station availability & vehicle qualification<br>3. Compute `req_charging = req_level - soc`<br>4. Determine Priority (Emergency / Priority Customer / Normal)<br>5. Check Peak vs Off-Peak time status<br>6. Calculate base charging cost & charging discount<br>7. Calculate parking cost based on duration slab<br>8. Calculate parking discount (Disabled free, Member 20%)<br>9. Compute `final_payable = (charging_cost - charging_discount) + (parking_cost - parking_discount)`<br>10. Check duration warning (> 8 hours)<br>11. Print full summary and messages | Read<br>Selection<br>Calc<br>Selection<br>Selection<br>Calc/Selection<br>Selection<br>Selection<br>Calc<br>Selection<br>Print<br>EVManagementControl | • Vehicle summary<br>• Charging Priority<br>• Time Status<br>• Charging Cost<br>• Parking Cost<br>• Total Discount<br>• Final Payable Amount<br>• System Warnings |
 
+## Question 6 Output
+
+<img width="530" height="463" alt="image" src="https://github.com/user-attachments/assets/993f939c-e8c7-4714-b813-3a5a5c05edce" />
+
+
