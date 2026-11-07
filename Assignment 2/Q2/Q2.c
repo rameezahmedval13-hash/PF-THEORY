@@ -19,7 +19,8 @@
 // Function to calculate the sum of proper divisors
 int sumOfDivisors(int num) {
     int sum = 0;
-    for (int i = 1; i <= num / 2; i++) {
+    int i;
+    for (i = 1; i <= num / 2; i++) {
         if (num % i == 0) {
             sum += i;
         }
@@ -29,6 +30,7 @@ int sumOfDivisors(int num) {
 
 int main() {
     int n;
+    int a;
     int count = 0;
 
     printf("Enter upper limit (n): ");
@@ -36,7 +38,7 @@ int main() {
 
     printf("Amicable pairs up to %d:\n", n);
 
-    for (int a = 1; a <= n; a++) {
+    for (a = 1; a <= n; a++) {
         int b = sumOfDivisors(a);
 
         /* 
